@@ -6,8 +6,8 @@ public class Musculacao extends MensalidadeDecorator{
         super(mensalidade);
     }
 
-    public float getPercentualValor() {
-        return 10.0f;
+    public float getValorAdicional() {
+        return 100.0f;
     }
 
     public String getNomeServico() {

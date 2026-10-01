@@ -13,10 +13,10 @@ public abstract class MensalidadeDecorator implements Mensalidade{
         return this.mensalidade;
     }
 
-    public abstract float getPercentualValor();
+    public abstract float getValorAdicional();
 
     public float getValor(){
-        return this.mensalidade.getValor();
+        return this.mensalidade.getValor() + this.getValorAdicional();
     }
 
     public abstract String getNomeServico();

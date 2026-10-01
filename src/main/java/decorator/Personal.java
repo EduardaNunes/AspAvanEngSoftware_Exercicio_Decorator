@@ -6,8 +6,8 @@ public class Personal extends MensalidadeDecorator{
         super(mensalidade);
     }
 
-    public float getPercentualValor() {
-        return 30.0f;
+    public float getValorAdicional() {
+        return 150.0f;
     }
 
     public String getNomeServico() {

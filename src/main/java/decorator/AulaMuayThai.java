@@ -6,8 +6,8 @@ public class AulaMuayThai extends MensalidadeDecorator{
         super(mensalidade);
     }
 
-    public float getPercentualValor() {
-        return 20.0f;
+    public float getValorAdicional() {
+        return 120.0f;
     }
 
     public String getNomeServico() {
