@@ -19,12 +19,12 @@ public abstract class MensalidadeDecorator implements Mensalidade{
         return this.mensalidade.getValor();
     }
 
-    public abstract String getNomeServiço();
+    public abstract String getNomeServico();
 
     public String getDescricao(){
-        return this.mensalidade.getDescricao() + '/' + this.getNomeServiço();
+        return this.mensalidade.getDescricao() + '/' + this.getNomeServico();
     }
-    
+
     public void setDescricao(String descricao){
         this.descricao = descricao;
     }
